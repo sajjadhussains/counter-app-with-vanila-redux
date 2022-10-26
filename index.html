@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>increment-decrement</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-section {
+        height: 200px;
+        width: 400px;
+        border: 1px solid gray;
+    }
+
+    .main-section h1 {
+        text-align: center;
+    }
+
+    .counter-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .counter-btn {
+        border: 1px solid black;
+        padding: 5px 10px;
+        background-color: aquamarine;
+        color: black;
+        margin: 5px;
+        cursor: pointer;
+    }
+</style>
+
+<body>
+    <h1>Hey see!!I am back in the web</h1>
+    <section>
+
+        <div class="main-section">
+            <h1>Simple counter application</h1>
+            <h2 style="text-align:center;">Count:<span id="count-value">0</span></h2>
+            <div class="counter-section">
+                <div class="counter-btn" id="increment-btn">Increment</div>
+                <div class="counter-btn" id="decrement-btn">decrement</div>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+</body>
+
+</html>
